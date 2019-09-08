@@ -49,6 +49,7 @@ public class h2 extends LinearOpMode {
           left_motor.setPower(power);
           right_motor.setPower(power);
           time = 0;
+          // yes
           while (!(time > 60)) {
             sleep(5000);
             leften = left_motor.getCurrentPosition();
